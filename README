@@ -1,0 +1,8 @@
+
+
+rm -rf public
+run hugo to generate the public directory
+docker build the contained dockerfile
+docker run -p 8080:80
+
+access website on 8080, or whatever /index.html
